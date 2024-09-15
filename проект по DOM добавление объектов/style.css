@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header>.container{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.header-plus {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.item-number {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin: 10px;
+}
+.textArea {
+    border: none;
+    width: 100%;
+    resize: vertical;
+}
+.delete {
+    border: none;
+    width: 70px;
+    background-color: white;
+    margin: 10px;
+}
